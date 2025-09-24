@@ -16,6 +16,7 @@ High Performance: Achieved 35.06 dB PSNR and 0.9739 SSIM at 500 training epochs.
 Data Preprocessing
   Input: Raw images from CUBE+ dataset with varied lighting conditions.
   Normalization and resizing for efficient training.
+  https://ipg.fer.hr/ipg/resources/color_constancy
 Model Design
   Encoder: CNN layers compressing input into latent space.
   Latent Space: Mean & variance parameterization for VAE sampling.
